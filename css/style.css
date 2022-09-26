@@ -117,3 +117,9 @@ background-size: contain;
 margin-top: 50px;
 
 }
+
+.new_block_few{
+margin-top: 150px;
+height: 800px;
+background: url(../img/see.jpg) no-repeat 0 0 / 900px, url(../img/panda.jpg) no-repeat right top / 500px, red;
+}
