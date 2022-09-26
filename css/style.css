@@ -1,0 +1,119 @@
+body{
+   font-family: Lato, sans-serif;
+   color: #424551;
+}
+
+[class*=_container]{
+   max-width: 810px;
+   margin: 0 auto;
+}
+
+h1{
+   font-size: 46px;
+   font-weight: 900;
+   line-height: 130%;
+   margin-top:50px;
+   margin-bottom:40px;
+   color: #1E212C;
+}
+
+.image_keyboard{
+   max-width: 100%;
+   margin-bottom: 60px;
+
+}
+
+.main_article{
+   font-size: 20px;
+   font-weight: 700;
+   line-height: 150%;
+   color:#1E212C;
+   margin-bottom: 24px;
+}
+
+.text_paragraph{
+   line-height: 160%;
+   margin-bottom: 48px;
+}
+.text_paragraph p{
+   margin-bottom: 22px;
+}
+
+
+.text_blockquote{
+   font-size: 20px;
+   font-weight: 700;
+   line-height: 150%;
+   color: #1E212C;
+   padding-left :58px;
+   margin-bottom: 48px;
+}
+
+.lists {
+   margin-bottom: 24px;
+}
+
+li{
+margin-bottom: 4px;
+padding-left: 32px;
+}
+
+
+.new_block{
+   max-width: 1310px;
+   margin: 0 auto;
+}
+
+
+.new_block_bc{
+   background-color:blue;
+   color:red;
+   margin-bottom: 30px;
+}
+
+.new_block_bi{
+   background-image: url(../img/orange.jpg);
+   color:darkblue;
+   height: 900px;
+}
+
+.new_block_big{
+   background-image: linear-gradient(to bottom, #feffff 17%, #a0d8ef 64%);
+margin-top: 40px;
+}
+
+.new_block_repeaty{
+   background-image: url(../img/inst.jpg);
+   max-width: 400px;
+   height: 600px;
+   background-repeat: repeat-y;
+   margin-top:30px;
+   color:darkred;
+}
+
+.new_block_position{
+   background-image: url(../img/nature.jpg);
+   height: 500px;
+   background-position: right bottom;
+   background-repeat: no-repeat;
+   color:darkkhaki;
+   margin-top: 30px;
+   border: 2px solid black;
+}
+
+.new_block_attachment{
+   background-image: url(../img/water.jpg);
+   background-attachment: fixed;
+   height: 1500px;
+   margin-top: 30px;
+
+}
+
+.new_block_size{
+background-image: url(../img/bag.jpg);
+height: 800px;
+background-repeat: no-repeat;
+background-size: contain;
+margin-top: 50px;
+
+}
